@@ -1,0 +1,102 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+.factorypath
+
+# VS Code
+.vscode/
+.code-workspace
+
+# Logs
+logs/
+*.log
+log/
+log4j*.properties
+
+# Test reports
+test-output/
+reports/
+extent-reports/
+allure-results/
+allure-report/
+.allure/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration files with sensitive information
+# Uncomment if you store credentials in these files
+# src/test/resources/config.properties
+# src/main/resources/application.properties
+
+# Generated files
+generated/
+.generated/
+
+# Temporary files
+temp/
+tmp/
+.temp/
+.tmp/
+
+# REST Assured specific
+.rest-assured/
+
+# Java Flight Recorder
+*.jfr
+
+# Gradle (if you also use Gradle)
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Debug files
+*.hs_err_pid*
